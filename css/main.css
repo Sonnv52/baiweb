@@ -1,0 +1,146 @@
+.content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.timeline{
+    display: flex;
+    border-bottom: 1px solid gray;
+    height: 37px;
+}
+
+.now{
+   width: 15%;
+   height: 35px;
+   font-size: 25px;
+   
+}
+#n0{
+    
+    border-bottom:3px solid rgb(2, 2, 163);
+    color: rgb(2, 2, 163);
+}
+.menu1{
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    
+}
+body{
+    background-color: rgb(243, 243, 235);
+}
+.trailler{
+    height: 402px;
+    width: 254px;
+    background-image: url(https://files.betacorp.vn/files/media/images/2022/04/08/274963826-675063727035864-2826472215001750256-n-181843-080422-22.jpg);
+    border-radius: 5%;
+    background-color: gray;
+    background-size: contain;
+}
+.menuright{
+    height: 500px;
+    width: 60%;
+}
+.title_film{
+    margin-left: 20px;
+    width: 200px;
+    font-size: 30px;
+    color: rgb(92, 33, 33);
+    margin-bottom: 10px;
+}
+.in4{
+    display: flex;
+    margin-left: 20px;
+    width: 300px;
+}
+.type{
+    height: 20px;
+    width: 186px;
+}
+.film-item{
+    height: 330px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.trailler2{
+    height: 290px;
+    width: 183px;
+    background-image: url(https://files.betacorp.vn/files/media/images/2022/04/28/nkl-400x633-150010-280422-57.jpg);
+    border-radius: 5%;
+    background-color: gray;
+    background-size: contain;
+}
+.menuright{
+    height: 500px;
+    width: 30%;
+}
+.menu2{
+    height: 450px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.trailler3{
+    height: 281px;
+    width: 177px;
+    background-image: url(https://files.betacorp.vn/files/media/images/2022/04/24/warhunt-400x633-202235-240422-78.jpg);
+    border-radius: 5%;
+    background-color: gray;
+    background-size: contain;
+}
+.trailler4{
+    height: 281px;
+    width: 177px;
+    background-image: url(https://files.betacorp.vn/files/media/images/2022/04/25/c9eca49fd5ca14944ddb-095645-250422-83.jpg);
+    border-radius: 5%;
+    background-color: gray;
+    background-size: contain;
+}
+.menuright{
+    height: 500px;
+    width: 30%;
+}
+.film-list{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.hide{
+    display: none;
+}
+button{
+    border: none;
+    background-color: rgb(243, 243, 235);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+button:hover,.film-menu button.active{
+     border-bottom: 3px solid blue;
+     color: blue;
+}
+.time_line_open{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+.timeo{
+    background-color: gray;
+    font-size: 15px;
+    height: 30px;
+    width: 45px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.slide{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+}
